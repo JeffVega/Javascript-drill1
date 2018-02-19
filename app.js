@@ -1,4 +1,4 @@
-function whoIAm(){
-console.log(`Hi, my name is Jeff and I'm 20 years old`)
+function whoIAm(name,age){
+console.log(`Hi, my name is ${name} and I'm ${age} years old`)
 };
-whoIAm();
+whoIAm("jeff",20);
